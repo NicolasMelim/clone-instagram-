@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+#main-container {
+   display: flex;
+   flex-direction: row;
+   margin-top: 30px;
+}
+#banner-container,
+#form-container {
+    flex: 1 1 0;
+    width: 50%;
+}
+#banner-container {
+    text-align: right;
+}
+#banner-container img {
+    margin-right: -15px;
+    
+}
+#form-container {
+    text-align: center;
+}
+#form-box, 
+#register-container {
+    border:1px solid #D8D8D8;
+    width: 350px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+#forrm-box, #logo-insta {
+    width: 175px;
+    height: 50px;
+    margin-top: 6px;
+}
+#login-form {
+ margin-top: 20px;
+}
+#login-form input {
+    display: block;
+    font-size: 12px;
+    background-color: #fafafa;
+    margin: 5PX auto;
+    padding: 12px 9px;
+    border: solid 1px #D8D8D8;
+    width: 268px;
+
+}
+#login-form input[type="submit"] {
+    background-color: #4086ab;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 30px;
+     border-color: #B2DFFC;
+     font-size: 12px;
+     padding: 0;
+     font-weight: bold;
+     cursor: pointer;
+
+}
+.separator {
+ position: relative;
+}
+.separator, .line {
+    border-top: 1px solid #dbdbdb;
+    width: 268px;
+    margin: 25px auto 35px;
+} 
+.separator span {
+    position: absolute ;
+    text-transform: uppercase;
+    color: #DDD;
+    width: 50PX;
+    top: -6px;
+    left: 50%;
+    margin-left: -25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#facebook-login {
+    margin-bottom: 25px;
+}
+#facebook-login a {
+    text-decoration: none;
+    color: #385185;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#facebook-login img {
+    width: 16px;
+    height: 16px; 
+    margin-right: 8px;
+}
+#facebook-login span {
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 1px;
+}
+#forgot-pass {
+    margin-bottom: 20px;
+    font-size: 12px;
+    
+}
+#forgot-pass a {
+    text-decoration: none;
+    color: #373799;
+}
+#register-container {
+    margin-top: 10px;
+    padding: 25px;
+}
+#register-container p {
+    font-size: 14px;
+    color: #262626;
+}
+#register-container a {
+ text-decoration: none ;
+  color: #4A95F6;
+  font-weight: bold;
+ }
+ #get-app-container {
+    text-align:center ;
+    width: 350px;
+ }
+ #get-app-container p { 
+    margin: 20px 0;
+    font-size: 13px;
+
+}
+#get-app-container a { 
+  text-decoration: none;
+
+}
+#get-app-container img {
+    width: 136px;
+    height: 40px;
+} 
+footer { 
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+}
+footer #footer-links {
+   list-style: none;
+}
+footer #footer-links li {
+    display:  inline-block;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+#footer-links a {
+    text-decoration: none;
+    color: #00376B;
+    font-size: 13px;
+    font-weight: bold;
+}
+#copyright {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #8E8E8E;
+    margin-top: 10px;
+}
